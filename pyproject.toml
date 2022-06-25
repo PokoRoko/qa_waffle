@@ -6,10 +6,13 @@ authors = ["ibukin <ibukin@voice-link.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Django = "^4.0.4"
-django-debug-toolbar = "^3.2.4"
+Django = "^4.0.5"
+loguru = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
+django-debug-toolbar = "^3.5.0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
